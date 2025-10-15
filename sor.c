@@ -9,11 +9,12 @@ int main(void) {
             "és már csak %d üveg sör áll a falon!"
     };
 
-    for (int i = 100; i > 0;printf("%d üveg sör áll a falon,\n%d üveg sör!\n"Leveszel egyet és körbeadod,\n", i, i),
+    for (int i = 100; i > 0;printf("%d üveg sör áll a falon,\n%d üveg sör!\nLeveszel egyet és körbeadod,\n", i, i),
                             printf(*(soer + (i > 1))"\n\n", i-1), i--);
 
 
     return 0;
 
 }
+
 
