@@ -10,11 +10,13 @@ int main(void) {
     };
 
     for (int i = 100; i > 0;printf("%d üveg sör áll a falon,\n%d üveg sör!\nLeveszel egyet és körbeadod,\n", i, i),
-                            printf(*(soer + (i > 1))"\n\n", i-1), i--);
+            printf(*(soer + (i > 1)), i-1),
+            printf("\n\n"),i--);
 
 
     return 0;
 
 }
+
 
 
