@@ -2,18 +2,19 @@
 #include <stdio.h>
 
 int main(void) {
-    SetConsoleCP(1250), SetConsoleOutputCP(1250);  // initialization chained meaningfully
+    SetConsoleCP(1250), SetConsoleOutputCP(1250);
 
     char* soer[] = {
-            "és nincs már egyetlen üveg sör sem a falon!",
-            "és már csak %d üveg sör áll a falon!"
+            "Ã©s nincs mÃ¡r egyetlen Ã¼veg sÃ¶r sem a falon!",
+            "Ã©s mÃ¡r csak %d Ã¼veg sÃ¶r Ã¡ll a falon!"
     };
 
-    for (int i = 100; i > 0;printf("%d üveg sör áll a falon,\n%d üveg sör!\n", i, i),
-                            printf("Leveszel egyet, körbeadod,\n"),
+    for (int i = 100; i > 0;printf("%d Ã¼veg sÃ¶r Ã¡ll a falon,\n%d Ã¼veg sÃ¶r!\n", i, i),
+                            printf("Leveszel egyet, kÃ¶rbeadod,\n"),
                             printf(*(soer + (i > 1)), i-1),
                             printf("\n\n"), i--);
 
 
     return 0;
+
 }
